@@ -1,5 +1,6 @@
-  ¡ñ ÃæÏò¶ÔÏóÂ¼ÈëĞÅÏ¢£º
-  ¡ñ import java.until.Scanner;
+ ```
+ â— é¢å‘å¯¹è±¡å½•å…¥ä¿¡æ¯ï¼š
+  â— import java.until.Scanner;
 public class Demo{
 Static Student	[] students=new Student[100]
 Static Scanner sc = new Scanner(System.in);
@@ -7,8 +8,8 @@ public static void main(String[] args){
 printMenu();
 }
 public static void printMenu(){
-System.out.println(Ñ¡ÔñÊı×Ö);
-System.out.println(1.Ôö¼Ó);
+System.out.println(é€‰æ‹©æ•°å­—);
+System.out.println(1.å¢åŠ );
 int flag = sc.nextInt;
 switch(flag){
 case 1: 
@@ -22,7 +23,7 @@ public static void addStudent(){
 int i=0;
 boolen isCome=true
 //while(isCome){
-System.out.println(ÇëÊäÈëÑ§ÉúÃû);
+System.out.println(è¯·è¾“å…¥å­¦ç”Ÿå);
 String name = sc.next;
 Student student = new Student(name,age,sex)
 students[i]  = student;
@@ -39,9 +40,9 @@ printMenu();
 
 }
 public static void selectStudent(){
-System.out.println(ÇëÊäÈëÑ§ÉúÃû);
+System.out.println(è¯·è¾“å…¥å­¦ç”Ÿå);
 int flag = sc.nextInt;
-for(Student s:students){×Ô¼ºÅĞ¶ÏÊı×é³¤¶È==int =0 i<student.length;i++
+for(Student s:students){è‡ªå·±åˆ¤æ–­æ•°ç»„é•¿åº¦==int =0 i<student.length;i++
                                                        student s[].say();
 if(s!=null){
 s.say();
@@ -49,6 +50,7 @@ s.say();
 }
 printMenu();
 }
-  ¡ñ private  int age;   ²»ÄÜ¸ü¸ÄÄêÁä
-  ¡ñ ÓÃget/set·ÃÎÊË½ÓĞ³ÉÔ±£¬ÓĞ¿É¿ØĞÔ£» 
-Ö»ÒªÓÃÁËprivate¾ÍÖ»ÄÜÔÚ±¾·½·¨ÌåÖĞÊ¹ÓÃ£¬ÔÚÍâ²¿·ÃÎÊ¾Í±ØĞëÊ¹ÓÃget/set·½·¨¡£
+  â— private  int age;   ä¸èƒ½æ›´æ”¹å¹´é¾„
+  â— ç”¨get/setè®¿é—®ç§æœ‰æˆå‘˜ï¼Œæœ‰å¯æ§æ€§ï¼› 
+åªè¦ç”¨äº†privateå°±åªèƒ½åœ¨æœ¬æ–¹æ³•ä½“ä¸­ä½¿ç”¨ï¼Œåœ¨å¤–éƒ¨è®¿é—®å°±å¿…é¡»ä½¿ç”¨get/setæ–¹æ³•ã€‚
+```
